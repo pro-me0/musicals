@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="mp3.css">
+	<script type="text/javascript" src="mp3.js"></script>
+</head>
+<body onload="print(0)" onmousemove="go(event)" onmouseup="off()">
+	
+	<div>
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Aye_Mama.mp3" controls></audio>
+		</fieldset>
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Uwa_Mgbede_KA_MMA.mp3" controls></audio>
+		</fieldset>
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Igbo_bunk.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Beamer.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Felony.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Era-Ameno.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Gbona.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Go_Crazy.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Killin_Dem.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Need_A_Break.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Nobody.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/Odogwu_Remix.mp3" controls></audio>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>mp3</legend>
+		<audio src="mp3/The-Best.mp3" controls></audio>
+		</fieldset>
+	</div>
+	<div id="label">
+		<span id="back"></span>
+		<div id="ctrlP">
+			<span id="durate0"></span>
+		<div id="prog" onmousemove="hover2(event)" onmouseout="hide()" onmousedown="con();rec(event)">
+			<span id="bar">
+				<span></span>
+			</span>
+		</div>
+		<span id="durate"></span>
+		</div>
+		<span id="title"></span>
+
+		<div id="vico">
+			<div id="vol" onclick="vol(event)">
+				<span id="ch"></span><span id="vs"></span>
+			</div>
+			<div id='icons'>
+				<img src="./img/skipp.svg" onclick='prev()' alt="previous">
+				<img src="./img/play.svg" id="ply" onclick="pl(this)" alt="play">
+				<img src="./img/skipf.svg" onclick="nex()" alt="next">
+			</div>
+			<img src="./img/all.svg" id="rep" onclick="truth()" alt="repeat">
+		</div>
+		
+	</div>
+</body>
+</html>
